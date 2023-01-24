@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
 // excell
-import * as ExcelJS from "exceljs"
+import * as ExcelJS from "exceljs/dist/exceljs"
 import { saveAs } from "file-saver";
 
 const Info = () => {
