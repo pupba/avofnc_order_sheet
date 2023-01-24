@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import * as ExcelJS from "exceljs"
-import { saveAs } from "file-saver";
 // products imgs
 import extra from "../product_imgs/products/avoE.png";
 import pure from "../product_imgs/products/avoP.png";
